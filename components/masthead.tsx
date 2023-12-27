@@ -29,7 +29,7 @@ const Masthead: React.FC = () => {
         playsInline
         className="absolute w-full h-full object-cover"
       >
-        <source src="/background.mp4" type="video/mp4" />
+        <source src="/homepage/background.mp4" type="video/mp4" />
       </video>
       <div className="p-12 font-bold z-10 text-gray-100 drop-shadow-[0_3px_5px_rgba(0,0,0,0.4)] text-center flex-1 flex flex-col items-center justify-center">
         <h1 className="mb-6 text-4xl xl:text-5xl">
