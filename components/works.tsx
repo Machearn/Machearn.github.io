@@ -31,7 +31,7 @@ const Works: React.FC = () => (
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src="/homepage/web_server.png"
+                src="/web_server.png"
                 alt="web_server"
                 width={0}
                 height={0}
@@ -39,7 +39,7 @@ const Works: React.FC = () => (
                 className="w-full h-auto"
               />
               <Image
-                src="/homepage/web_server_src.png"
+                src="/web_server_src.png"
                 alt="web_server_src"
                 width={0}
                 height={0}
@@ -64,7 +64,7 @@ const Works: React.FC = () => (
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src="/homepage/json.png"
+                src="/json.png"
                 alt="json"
                 width={0}
                 height={0}
@@ -72,7 +72,7 @@ const Works: React.FC = () => (
                 className="w-full h-auto"
               />
               <Image
-                src="/homepage/json_src.png"
+                src="/json_src.png"
                 alt="json_src"
                 width={0}
                 height={0}
@@ -97,7 +97,7 @@ const Works: React.FC = () => (
             </WorkLeft>
             <WorkRight progress={progress}>
               <Image
-                src="/homepage/dbm.png"
+                src="/dbm.png"
                 alt="dbm"
                 width={0}
                 height={0}
@@ -105,7 +105,7 @@ const Works: React.FC = () => (
                 className="w-full h-auto"
               />
               <Image
-                src="/homepage/dbm_src.png"
+                src="/dbm_src.png"
                 alt="dbm_src"
                 width={0}
                 height={0}
