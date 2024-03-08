@@ -41,6 +41,23 @@ const Masthead: React.FC = () => {
           <span>(Photographer/Full Stack Developer)</span>
         </h2>
       </div>
+      <div className="drop-shadow-[0_3px_5px_rgba(0,0,0,0.4)] flex-grow-0 pb-20 mb:pb-10 transition-all duration-1000">
+        <svg
+          className="w-[48px] h-[48px] text-gray-100"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m19 9-7 7-7-7"
+          />
+        </svg>
+      </div>
     </div>
   );
 };
