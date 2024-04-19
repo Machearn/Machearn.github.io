@@ -3,6 +3,8 @@
 import React, { useContext, useRef } from "react";
 import s from "@/styles/about_me.module.css";
 import { ScrollContext } from "@/utils/scroll-observer";
+import github from "@/public/github-mark-white.svg";
+import Image from "next/image";
 
 const opacityForBlock = (sectionProgress: number, blockNo: number) => {
   const progress = sectionProgress - blockNo;
@@ -39,7 +41,16 @@ const AboutMe: React.FC = () => {
               opacity: opacityForBlock(progress, 0),
             }}
           >
-            I am a full stack developer.
+            <h1 className="flex items-center">
+              <a
+                className="inline h-10 w-10 xl:h-12 xl:w-12 mr-2.5"
+                target="_blank"
+                href="https://github.com/machearn"
+              >
+                <Image src={github} alt="github" />
+              </a>
+              I am a full stack developer.
+            </h1>
           </div>
           <span
             className={`${s.aboutmeText} inline-block after:content-['_']`}
